@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Jogo Pedra, Papel e Tesoura</title>
+</head>
+<body>
+
+    <section class="jogo">
+        <div class="placar">
+            <div class="placar__jogador">
+                <h2>Player</h2>
+                <p>0</p>
+            </div>
+            <div class="placar__computador">
+                <h2>Computador</h2>
+                <p>0</p>
+            </div>
+        </div>
+
+        <div class="intro">
+            <h1>Pedra, Papel e Tesoura</h1>
+            <button>Vamos Jogar!</button>
+        </div>
+
+        <div class="partida desaparece">
+            <h2 class="vencedor">Escolha uma opção</h2>
+            <div class="maos">
+                <img src="./assets/pedra.png" alt="mão significando pedra" class="mao__jogador">
+                <img src="./assets/pedra.png" alt="mão significando pedra" class="mao__computador">
+            </div>
+            <div class="opcoes">
+                <button class="rock">pedra</button>
+                <button class="papel">papel</button>
+                <button class="tesoura">tesoura</button>
+            </div>
+        </div>
+    </section>
+    
+    <script src="app.js"></script>
+</body>
+</html>
